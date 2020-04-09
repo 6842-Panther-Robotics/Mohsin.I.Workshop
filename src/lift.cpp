@@ -7,6 +7,7 @@ Motor liftMotor(1, E_MOTOR_GEARSET_36, false, E_MOTOR_ENCODER_DEGREES);
 ADIPotentiometer pot('H');
 ADILineSensor line('B');
 
+
 PIDController liftPID(0.465, 7);
 
 //AutonFunctions
